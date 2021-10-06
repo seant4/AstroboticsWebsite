@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.16"
+  },
+  "scripts": {
+    "build": "postcss styles.css -o src/styles.css",
+    "prod": "cross-env NODE_ENV=production postcss styles.css > src/styles.css"
+  }
+}
