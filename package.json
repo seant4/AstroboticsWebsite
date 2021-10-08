@@ -1,14 +1,22 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.3.7",
-    "cross-env": "^7.0.3",
-    "cssnano": "^5.0.8",
-    "postcss": "^8.3.9",
-    "postcss-cli": "^9.0.1",
-    "tailwindcss": "^2.2.16"
-  },
+  "name": "astrobotics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "astrobotics",
+  "author": "Alex Lin",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "build": "postcss styles.css -o src/styles.css",
-    "prod": "cross-env NODE_ENV=production postcss styles.css > src/styles.css"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
