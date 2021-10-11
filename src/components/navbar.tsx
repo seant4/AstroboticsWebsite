@@ -15,7 +15,7 @@ const NavLinks: { name: string; link: string }[] = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between bg-gray-300 py-4 sm:px-20 px-5">
+    <nav className="flex items-center justify-between bg-gray-200 py-4 sm:px-20 px-5">
       <Link to="/">
         <a className="p-2">
           <StaticImage src="../assets/Astrobotics_Banner_Small.png" alt="Astrobotics" height={60}/>
